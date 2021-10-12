@@ -1,0 +1,129 @@
+
+body
+{
+	font-family: monospace;
+}
+
+.leftside
+{
+	width: 48%;
+	height: 100%;
+	padding: 5px;
+	border: 1px;
+	float: left;
+
+}
+.we{
+	text-transform: uppercase;
+	font-size: 20px;
+
+	font-weight: bold;
+}
+.we p{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 14px;
+	font-weight: bold;
+	text-align: center;
+
+}
+section
+{
+	width: 99%;
+	height: 480px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 4px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.leftside .middle .rightside
+{
+	width: 30%;
+	height: 450px;
+	margin-top: 10px;
+
+}
+.leftside:hover
+{
+	background-color: darkorange;
+	border: 2px solid black;
+	color: white;
+}
+
+.leftside img
+{
+	width: 450px;
+	height: 300px;
+	padding: 5px;
+	margin-left: 30px;
+}
+.leftside h2
+{
+	text-align: center;
+}
+.leftside p
+{
+	text-align: center;
+	justify-content: space-around;
+	font-size: 16px;
+	font-weight: bold;
+}
+.rightside
+{
+	width: 45%;
+	height: 100%;
+	padding: 5px;
+	border: 1px;
+	float: right;
+}
+
+.rightside img
+{
+	width: 450px;
+	height: 300px;
+	padding: 5px;
+	margin-left: 20px;
+}
+.rightside h2
+{
+	text-align: center;
+}
+.rightside p
+{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.rightside:hover
+{
+	background-color: darkorange;
+	border: 2px solid black;
+	color: white;
+}
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(skardu.JPG);
+	background-size: cover;
+    min-height: 500px;
+}
+
+.facebook {
+	background: #3B5998;
+	color: white;
+	padding: 10px;
+  }
+footer
+{
+	background-color: black;
+	height: 5%;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+    margin-top: 650px;
+	padding-top: 10px;
+}

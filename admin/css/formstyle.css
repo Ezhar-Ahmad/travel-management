@@ -1,0 +1,144 @@
+*
+{
+	margin : 0;
+	padding: 0;
+}
+img{
+	height: 80px;
+	width: 80px;
+}
+
+.container
+{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(skardu.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#phone
+{
+	border: none;
+	width: 250px;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#fname
+{
+	border: none;
+	width: 250px;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#pass
+{
+	border: none;
+	width: 250px;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+input[type="submit"]{
+	width: 150px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	background-color: darkorange;
+	color: white;
+}
+
+h1
+{
+	
+	
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+.login{
+	width: 380px;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+	border: 2px solid rgb(114, 139, 0);
+	text-align: center;
+	margin-left: 590px;
+}
+.register
+{
+	width: 380px;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+	border: 2px solid rgb(114, 139, 0);
+	text-align: center;
+	margin-left: 590px;
+}
+#email
+{
+	border: none;
+	width: 250px;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+@media screen and (max-width: 767px) {
+  .login {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+div
+{
+	display: block;
+}
+
+label
+{
+	color: white;
+	font-size: 18px;
+}
+
+
+
+#num
+{
+	width: 190px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+}
+
+#gender
+{
+	justify-content: space-between;
+}
+
+
